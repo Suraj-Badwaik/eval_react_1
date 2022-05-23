@@ -1,0 +1,66 @@
+.main{
+  /* border: 2px solid red; */
+  width: 40%;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: auto;
+  margin-top: 5%;
+  height: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: rgb(224, 199, 247);
+}
+
+.todoForm {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 4%;
+}
+.todoForm button{
+  box-sizing: border-box;
+  padding: 10px 10px;
+  border-radius: 12px;
+  border: 5px solid rgb(0, 55, 128);
+  background-color: rgb(0, 115, 255);
+  color: white;
+  font-size: 16px;
+}
+.AddTask{
+  width: 80%;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: 5px solid teal;
+}
+
+.list{
+  width: 100%;
+  margin: auto;
+  /* display: flex; */
+  /* border: 2px solid red; */
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+ 
+}
+
+.counter{
+  /* border: 2px solid red; */
+  display: flex;
+  
+}
+.counter>span{
+  margin-right: 10px;
+  color: coral;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.countvalue{
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+}

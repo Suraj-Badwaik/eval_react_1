@@ -1,0 +1,35 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  background-color: rgb(221, 51, 96);
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 8px;
+  
+}
+.tasks{
+    width: 25px;
+    height: 20px;
+}
+.tasks:checked + div{
+  text-decoration: line-through;
+}
+
+.tasks +div{
+   font-size: 18px;
+   color: white;
+}
+.task>button{
+  background-color: red;
+  box-sizing: border-box;
+  padding: 4px 10px;
+  border: 4px solid white;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.task>div:nth-child(1){
+  display: flex;
+}

@@ -1,0 +1,21 @@
+.counter {
+  width: 15%;
+  margin: auto;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.counter>button{
+    background-color: rgb(135, 53, 152);
+    color: white;
+    padding: 3px 10px;
+}
+
+.counter span{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
